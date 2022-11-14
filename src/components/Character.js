@@ -8,10 +8,10 @@ const Character=({character})=>{
                     alt={character.name}
                     className="card-img-top"
                 />
-                <ul className="list-group list-group-flush">
-                    <li className="list-group-item">{character.name}<p></p>
-                    {character.status}-{character.species}</li>
-                </ul>       
+                <div className="card-body text-primary">
+                    <p>{character.name}</p>
+                    <p>{character.status}-{character.species}</p>  
+                </div>    
             </div>
         </div>
         /*

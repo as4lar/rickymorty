@@ -5,9 +5,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Rick y Morty</h1>
-        <p>
-          <Characters/>
-        </p>
+        <Characters/>
       </header>
     </div>
   );
